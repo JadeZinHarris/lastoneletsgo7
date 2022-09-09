@@ -1,0 +1,9 @@
+1.) double appen makes a copy and pushes number to end
+2.)does the opposite and put the numbers to the front instead of the back of the number
+3.)exl-insert 818.6822 ms,append 11.7908 ms, 
+large-insert 7.8973 ms,append 473.8 μs
+medium-insert 146.8 μs,append 121.9 μs
+small-insert 43.8 μs,append 93.8 μs
+tiny-insert 40.4 μs,append 81.3 μs
+going from smallest to largest, the time it takes increases significatly. unshift moves slower because it has to move all the the items over to a new array.
+//////////////////////
